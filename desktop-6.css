@@ -1,0 +1,994 @@
+/* screen - desktop-6 */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css%22");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,500,600%22");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/6453a7b963076cae904c716d.6453a7ba491cb89a2159f59d.6453a7bbb01039916046f1b4.hcp.png%22");
+
+@font-face {
+  font-family: "Arial-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/Arial-Bold%22");
+}
+@font-face {
+  font-family: "Sedan-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/Sedan-Regular%22");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root { 
+    --black: #000000;
+    --cultured-pearl: #f5f5f5;
+    --keppel: #3caba3;
+    --orange: #fe6324;
+    --orange-white: #fef8ed;
+    --peach-cream: #fff2da;
+    --raw-sienna: #da774a;
+    --smashed-pumpkin: #ec6c3d;
+    --white: #ffffff;
+   
+    --font-size-l2: 40px;
+    --font-size-m2: 24px;
+    --font-size-s2: 20px;
+    --font-size-xl2: 64px;
+    --font-size-xs2: 15px;
+    --font-size-xxs: 14px;
+    --font-size-xxxs: 13px;
+   
+    --font-family-arial-bold: "Arial-Bold", Helvetica;
+    --font-family-inter: "Inter", Helvetica;
+    --font-family-sedan-regular: "Sedan-Regular", Helvetica;
+  }
+  .arial-bold-black-15px {
+    color: var(--black);
+    font-family: var(--font-family-arial-bold);
+    font-size: var(--font-size-xs2);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .sedan-regular-normal-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-sedan-regular);
+    font-size: var(--font-size-m2);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .inter-normal-smashed-pumpkin-14px {
+    color: var(--smashed-pumpkin);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxs);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .inter-bold-black-14px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxs);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .arial-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-arial-bold);
+    font-size: var(--font-size-s2);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .inter-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s2);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .inter-bold-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m2);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .inter-bold-white-64px {
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl2);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .inter-bold-black-64px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl2);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .inter-bold-orange-64px {
+    color: var(--orange);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl2);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .arial-bold-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-arial-bold);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .inter-bold-raw-sienna-20px {
+    color: var(--raw-sienna);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s2);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .sedan-regular-normal-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-sedan-regular);
+    font-size: var(--font-size-l2);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .arial-bold-black-13px {
+    color: var(--black);
+    font-family: var(--font-family-arial-bold);
+    font-size: var(--font-size-xxxs);
+    font-style: normal;
+    font-weight: 700;
+  }
+.desktop-6 {
+    display: flex;
+    align-items: center;
+    background-color: var(--orange-white);
+    border: 1px none;
+    flex-direction: column;
+    height: 2356px;
+    overflow: hidden;
+    width: 1440px;
+  }
+  
+  .desktop-6 .overlap-group6 {
+    height: 590px;
+    margin-right: 1.0px;
+    position: relative;
+    width: 1439px;
+  }
+  
+  .desktop-6 .image-1 {
+    height: 479px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1439px;
+  }
+  
+  .desktop-6 .accueil {
+    cursor: pointer;
+    left: 914px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 23px;
+  }
+  
+  .desktop-6 .destinations {
+    left: 1162px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 23px;
+  }
+  
+  .desktop-6 .a-propos {
+    left: 1033px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 23px;
+  }
+  
+  .desktop-6 .place {
+    left: 1312px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 23px;
+  }
+  
+  .desktop-6 .nous-vous-offrons-la {
+    left: 33px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 392px;
+    width: 553px;
+  }
+  
+  .desktop-6 .title {
+    left: 33px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 106px;
+    width: 757px;
+  }
+  
+  .desktop-6 .overlap-group {
+    align-items: center;
+    background-color: var(--cultured-pearl);
+    border-radius: 20px;
+    display: flex;
+    height: 116px;
+    justify-content: flex-end;
+    left: 375px;
+    min-width: 690px;
+    padding: 0 14px;
+    position: absolute;
+    top: 474px;
+  }
+  
+  .desktop-6 .destination {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 14.0px;
+    min-height: 24px;
+    min-width: 113px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .place-1 {
+    margin-bottom: 14.0px;
+    margin-left: 119px;
+    min-height: 24px;
+    min-width: 46px;
+  }
+  
+  .desktop-6 .voyageurs {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 14.0px;
+    margin-left: 119px;
+    min-height: 24px;
+    min-width: 103px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .rectangle-2 {
+    background-color: var(--keppel);
+    border-radius: 10px;
+    height: 88px;
+    margin-left: 64px;
+    width: 90px;
+  }
+  
+  .desktop-6 .vector {
+    height: 8px;
+    left: 521px;
+    position: absolute;
+    top: 524px;
+    width: 16px;
+  }
+  
+  .desktop-6 .vector-1 {
+    height: 8px;
+    left: 685px;
+    position: absolute;
+    top: 524px;
+    width: 16px;
+  }
+  
+  .desktop-6 .vector-2 {
+    height: 8px;
+    left: 904px;
+    position: absolute;
+    top: 525px;
+    width: 16px;
+  }
+  
+  .desktop-6 .icon-search {
+    height: 31px;
+    left: 990px;
+    position: absolute;
+    top: 385px;
+    width: 41px;
+  }
+  
+  .desktop-6 .group-18 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    left: 51px;
+    min-height: 65px;
+    position: absolute;
+    top: 27px;
+    width: 92px;
+  }
+  
+  .desktop-6 .icon-paper_plane {
+    height: 35px;
+    width: 70px;
+  }
+  
+  .desktop-6 .mm_fly {
+    align-self: flex-end;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 2px;
+    min-height: 18px;
+    white-space: nowrap;
+    width: 80px;
+  }
+  
+  .desktop-6 .icon-search-1 {
+    height: 41px;
+    left: 990px;
+    position: absolute;
+    top: 513px;
+    width: 41px;
+  }
+  
+  .desktop-6 .meilleurs-destnations {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 182px;
+    min-height: 24px;
+    min-width: 212px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .overlap-group-container {
+    height: 483px;
+    margin-right: 77.0px;
+    margin-top: 41px;
+    position: relative;
+    width: 1275px;
+  }
+  
+  .desktop-6 .overlap-group10 {
+    height: 483px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 995px;
+  }
+  
+  .desktop-6 .group-container {
+    height: 482px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 362px;
+  }
+  
+  .desktop-6 .group-8 {
+    height: 157px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 157px;
+  }
+  
+  .desktop-6 .flex-col-1 {
+    align-items: flex-end;
+    background-color: var(--cultured-pearl);
+    border-radius: 20px 20px 0px 0px;
+    gap: 12px;
+    left: 78px;
+    min-height: 399px;
+    position: absolute;
+    top: 83px;
+    width: 284px;
+  }
+  
+  .desktop-6 .flex-col {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 329px;
+    width: 284px;
+  }
+  
+  .desktop-6 .rectangle-4 {
+    height: 284px;
+    object-fit: cover;
+    width: 284px;
+  }
+  
+  .desktop-6 .amrique-du {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 15px;
+    min-height: 33px;
+    text-decoration: underline;
+  }
+  
+  .desktop-6 .flex-row {
+    align-items: center;
+    display: flex;
+    min-width: 268px;
+  }
+  
+  .desktop-6 .icon-star {
+    height: 23px;
+    width: 24px;
+  }
+  
+  .desktop-6 .icon-star-1 {
+    margin-left: 4px;
+  }
+  
+  .desktop-6 .address {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 38px;
+    margin-top: 2.39px;
+    min-height: 17px;
+    min-width: 95px;
+  }
+  
+  .desktop-6 .explorer-nos-meilleures-destinations {
+    left: 356px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    font-size:35px ;
+  }
+  
+  .desktop-6 .overlap-group1 {
+    height: 399px;
+    left: 686px;
+    position: absolute;
+    top: 84px;
+    width: 285px;
+  }
+  
+  .desktop-6 .rectangle-3 {
+    background-color: var(--cultured-pearl);
+    border-radius: 20px 20px 0px 0px;
+    height: 399px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 284px;
+  }
+  
+  .desktop-6 .rectangle-4-1 {
+    height: 284px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 284px;
+  }
+  
+  .desktop-6 .moyen-orient {
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 296px;
+  }
+  
+  .desktop-6 .icon-star-2 {
+    left: 16px;
+    position: absolute;
+    top: 341px;
+  }
+  
+  .desktop-6 .icon-star-3 {
+    left: 72px;
+    position: absolute;
+    top: 341px;
+  }
+  
+  .desktop-6 .icon-star-4 {
+    left: 44px;
+    position: absolute;
+    top: 341px;
+  }
+  
+  .desktop-6 .icon-star-5 {
+    left: 100px;
+    position: absolute;
+    top: 341px;
+  }
+  
+  .desktop-6 .icon-star-6 {
+    left: 128px;
+    position: absolute;
+    top: 341px;
+  }
+  
+  .desktop-6 .address-1 {
+    left: 189px;
+    position: absolute;
+    top: 345px;
+  }
+  
+  .desktop-6 .flex-col-2 {
+    align-items: flex-end;
+    background-color: var(--cultured-pearl);
+    border-radius: 20px 20px 0px 0px;
+    gap: 12px;
+    left: 382px;
+    min-height: 399px;
+    position: absolute;
+    top: 84px;
+    width: 284px;
+  }
+  
+  .desktop-6 .europe {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 32px;
+    min-height: 33px;
+    min-width: 77px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .desktop-6 .flex-row-1 {
+    align-items: center;
+    display: flex;
+    margin-right: 1.0px;
+    min-width: 267px;
+  }
+  
+  .desktop-6 .address-2 {
+    margin-left: 38px;
+    margin-top: 2.39px;
+    min-height: 17px;
+    min-width: 94px;
+  }
+  
+  .desktop-6 .overlap-group3 {
+    height: 399px;
+    left: 990px;
+    position: absolute;
+    top: 84px;
+    width: 285px;
+  }
+  
+  .desktop-6 .afrique {
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 296px;
+  }
+  
+  .desktop-6 .overlap-group-container-1 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 79.0px;
+    margin-top: 19px;
+    min-width: 1275px;
+  }
+  
+  .desktop-6 .flex-col-3 {
+    align-items: flex-end;
+    background-color: var(--cultured-pearl);
+    border-radius: 20px 20px 0px 0px;
+    gap: 12px;
+    min-height: 399px;
+    width: 284px;
+  }
+  
+  .desktop-6 .flex-col-4 {
+    align-items: flex-end;
+    background-color: var(--cultured-pearl);
+    border-radius: 20px 20px 0px 0px;
+    gap: 12px;
+    margin-left: 20px;
+    min-height: 399px;
+    width: 284px;
+  }
+  
+  .desktop-6 .asie {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 48px;
+    min-height: 33px;
+    min-width: 44px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .desktop-6 .overlap-group2 {
+    height: 399px;
+    margin-left: 20px;
+    position: relative;
+    width: 285px;
+  }
+  
+  .desktop-6 .ocanie {
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 296px;
+  }
+  
+  .desktop-6 .group-container-1 {
+    height: 476px;
+    margin-left: 19px;
+    position: relative;
+    width: 363px;
+  }
+  
+  .desktop-6 .group-7 {
+    height: 157px;
+    left: 206px;
+    position: absolute;
+    top: 319px;
+    width: 157px;
+  }
+  
+  .desktop-6 .overlap-group4 {
+    height: 399px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 285px;
+  }
+  
+  .desktop-6 .proche-orient {
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 296px;
+  }
+  
+  .desktop-6 .group-24 {
+    align-items: flex-start;
+    display: flex;
+    height: 419px;
+    margin-right: 2.0px;
+    margin-top: 122px;
+    min-width: 1460px;
+  }
+  
+  .desktop-6 .overlap-group5 {
+    align-items: center;
+    background-color: var(--peach-cream);
+    display: flex;
+    flex-direction: column;
+    min-height: 419px;
+    padding: 21px 43px;
+    width: 1440px;
+  }
+  
+  .desktop-6 .vector-3 {
+    align-self: flex-end;
+    cursor: pointer;
+    height: 11px;
+    width: 20px;
+  }
+  
+  .desktop-6 .flex-row-2 {
+    align-items: flex-start;
+    display: flex;
+    height: 237px;
+    margin-left: 45.0px;
+    margin-top: 19px;
+    min-width: 1019px;
+  }
+  
+  .desktop-6 .group-13 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 199px;
+    width: 115px;
+  }
+  
+  .desktop-6 .naviguer {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 23px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .surname {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 36px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .carrires {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .place-2 {
+    margin-top: 24px;
+    min-height: 17px;
+  }
+  
+  .desktop-6 .affilis {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .group-14 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 132px;
+    min-height: 237px;
+    width: 153px;
+  }
+  
+  .desktop-6 .ressources {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 23px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .blog {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 33px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .tion {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 1px;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .communaut {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .tarification {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .flex-col-5 {
+    align-items: flex-start;
+    margin-left: 136px;
+    min-height: 237px;
+    width: 128px;
+  }
+  
+  .desktop-6 .entreprise {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 23px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .prsentation-de-service {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 30px;
+    min-height: 34px;
+  }
+  
+  .desktop-6 .a-propos-de-nous {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 10px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .clients-satisfaits {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .portefeuille {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .centre-daide {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .flex-col-6 {
+    align-items: flex-start;
+    gap: 22px;
+    margin-left: 134px;
+    min-height: 152px;
+    width: 221px;
+  }
+  
+  .desktop-6 .aider {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 1.0px;
+    min-height: 23px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .flex-row-3 {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    height: 107px;
+    min-width: 221px;
+  }
+  
+  .desktop-6 .flex-col-7 {
+    align-items: flex-start;
+    margin-top: 0.24px;
+    min-height: 103px;
+    width: 18px;
+  }
+  
+  .desktop-6 .vector-4 {
+    height: 11px;
+    margin-left: 3.0px;
+    width: 15px;
+  }
+  
+  .desktop-6 .vector-5 {
+    height: 11px;
+    margin-left: 3.0px;
+    margin-top: 37px;
+    width: 15px;
+  }
+  
+  .desktop-6 .location-dot-solid-1-1 {
+    height: 15px;
+    margin-top: 29px;
+    width: 15px;
+  }
+  
+  .desktop-6 .flex-col-8 {
+    align-items: flex-start;
+    min-height: 107px;
+    width: 195px;
+  }
+  
+  .desktop-6 .phone {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .mmbengue006gmailcom {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 30px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .pikine-guinaw-rails {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 26px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .group-15 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-left: 58.0px;
+    margin-top: 78px;
+    min-height: 21px;
+    width: 450px;
+  }
+  
+  .desktop-6 .vector-6 {
+    height: 1px;
+    margin-left: 12px;
+    width: 9px;
+  }
+  
+  .desktop-6 .copyright-startravel {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 1px;
+    white-space: nowrap;
+  }
+  
+  .desktop-6 .address-3 {
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop-6 .flex-col-9 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .desktop-6 .icon-star-7 {
+    height: 23px;
+    width: 24px;
+  }
+  
+  .desktop-6 .place-3 {
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
