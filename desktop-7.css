@@ -1,25 +1,24 @@
+/* screen - index */
 
-
-
-.desktop-6 {
-    display: flex;
+.index {
     align-items: center;
     background-color: var(--orange-white);
     border: 1px none;
+    display: flex;
     flex-direction: column;
     height: 2356px;
     overflow: hidden;
     width: 1440px;
   }
   
-  .desktop-6 .overlap-group6 {
+  .index .overlap-group2 {
     height: 590px;
     margin-right: 1.0px;
     position: relative;
     width: 1439px;
   }
   
-  .desktop-6 .image-1 {
+  .index .image-1 {
     height: 479px;
     left: 0;
     position: absolute;
@@ -27,8 +26,7 @@
     width: 1439px;
   }
   
-  .desktop-6 .accueil {
-    cursor: pointer;
+  .index .accueil {
     left: 914px;
     letter-spacing: 0;
     line-height: normal;
@@ -36,7 +34,7 @@
     top: 23px;
   }
   
-  .desktop-6 .destinations {
+  .index .destinations {
     left: 1162px;
     letter-spacing: 0;
     line-height: normal;
@@ -44,7 +42,7 @@
     top: 23px;
   }
   
-  .desktop-6 .a-propos {
+  .index .a-propos {
     left: 1033px;
     letter-spacing: 0;
     line-height: normal;
@@ -52,15 +50,13 @@
     top: 23px;
   }
   
-  .desktop-6 .place {
+  .index .place {
     left: 1312px;
-    letter-spacing: 0;
-    line-height: normal;
     position: absolute;
     top: 23px;
   }
   
-  .desktop-6 .nous-vous-offrons-la {
+  .index .nous-vous-offrons-la {
     left: 33px;
     letter-spacing: 0;
     line-height: normal;
@@ -69,7 +65,7 @@
     width: 553px;
   }
   
-  .desktop-6 .title {
+  .index .title {
     left: 33px;
     letter-spacing: 0;
     line-height: normal;
@@ -78,7 +74,7 @@
     width: 757px;
   }
   
-  .desktop-6 .overlap-group {
+  .index .overlap-group {
     align-items: center;
     background-color: var(--cultured-pearl);
     border-radius: 20px;
@@ -92,7 +88,7 @@
     top: 474px;
   }
   
-  .desktop-6 .destination {
+  .index .destination {
     letter-spacing: 0;
     line-height: normal;
     margin-bottom: 14.0px;
@@ -101,14 +97,15 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .place-1 {
+  .index .place-1 {
     margin-bottom: 14.0px;
     margin-left: 119px;
     min-height: 24px;
     min-width: 46px;
+    white-space: nowrap;
   }
   
-  .desktop-6 .voyageurs {
+  .index .voyageurs {
     letter-spacing: 0;
     line-height: normal;
     margin-bottom: 14.0px;
@@ -118,7 +115,7 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .rectangle-2 {
+  .index .rectangle-2 {
     background-color: var(--keppel);
     border-radius: 10px;
     height: 88px;
@@ -126,31 +123,31 @@
     width: 90px;
   }
   
-  .desktop-6 .vector {
+  .index .vector {
     height: 8px;
-    left: 521px;
+    left: 519px;
     position: absolute;
     top: 524px;
     width: 16px;
   }
   
-  .desktop-6 .vector-1 {
+  .index .vector-1 {
     height: 8px;
-    left: 685px;
-    position: absolute;
-    top: 524px;
-    width: 16px;
-  }
-  
-  .desktop-6 .vector-2 {
-    height: 8px;
-    left: 904px;
+    left: 686px;
     position: absolute;
     top: 525px;
     width: 16px;
   }
   
-  .desktop-6 .icon-search {
+  .index .vector-2 {
+    height: 8px;
+    left: 906px;
+    position: absolute;
+    top: 524px;
+    width: 16px;
+  }
+  
+  .index .icon-search {
     height: 31px;
     left: 990px;
     position: absolute;
@@ -158,75 +155,76 @@
     width: 41px;
   }
   
-  .desktop-6 .group-18 {
+  .index .group-18 {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 5px;
     left: 51px;
-    min-height: 65px;
+    min-height: 26px;
     position: absolute;
     top: 27px;
     width: 92px;
   }
   
-  .desktop-6 .icon-paper_plane {
-    height: 35px;
+  .index .vector-3 {
+    height: 14px;
     width: 70px;
   }
   
-  .desktop-6 .mm_fly {
+  .index .mm_fly {
     align-self: flex-end;
     letter-spacing: 0;
     line-height: normal;
     margin-right: 2px;
-    min-height: 18px;
+    min-height: 7px;
     white-space: nowrap;
     width: 80px;
   }
   
-  .desktop-6 .icon-search-1 {
+  .index .icon-search-1 {
     height: 41px;
-    left: 990px;
+    left: 991px;
     position: absolute;
-    top: 513px;
+    top: 516px;
     width: 41px;
   }
   
-  .desktop-6 .meilleurs-destnations {
+  .index .meilleurs-hotels {
     letter-spacing: 0;
     line-height: normal;
+    margin-right: 1.0px;
     margin-top: 182px;
     min-height: 24px;
-    min-width: 212px;
+    min-width: 159px;
     white-space: nowrap;
   }
   
-  .desktop-6 .overlap-group-container {
-    height: 483px;
-    margin-right: 77.0px;
+  .index .overlap-group-container {
+    height: 490px;
+    margin-right: 83.0px;
     margin-top: 41px;
     position: relative;
-    width: 1275px;
+    width: 1269px;
   }
   
-  .desktop-6 .overlap-group10 {
-    height: 483px;
+  .index .overlap-group6 {
+    height: 484px;
     left: 0;
     position: absolute;
     top: 0;
-    width: 995px;
+    width: 1071px;
   }
   
-  .desktop-6 .group-container {
-    height: 482px;
+  .index .group-container {
+    height: 483px;
     left: 0;
     position: absolute;
     top: 1px;
     width: 362px;
   }
   
-  .desktop-6 .group-8 {
+  .index .group-8 {
     height: 157px;
     left: 0;
     position: absolute;
@@ -234,285 +232,245 @@
     width: 157px;
   }
   
-  .desktop-6 .flex-col-1 {
-    align-items: flex-end;
+  .index .flex-col-2 {
+    align-items: center;
     background-color: var(--cultured-pearl);
     border-radius: 20px 20px 0px 0px;
-    gap: 12px;
+    gap: 24px;
     left: 78px;
     min-height: 399px;
     position: absolute;
-    top: 83px;
+    top: 84px;
     width: 284px;
   }
   
-  .desktop-6 .flex-col {
+  .index .flex-col {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
     gap: 12px;
-    min-height: 329px;
+    min-height: 324px;
     width: 284px;
   }
   
-  .desktop-6 .rectangle-4 {
+  .index .rectangle-4 {
     height: 284px;
     object-fit: cover;
     width: 284px;
   }
   
-  .desktop-6 .amrique-du {
+  .index .surname {
+    margin-left: 15px;
+    min-height: 28px;
+    text-decoration: underline;
+  }
+  
+  .index .flex-row {
+    align-items: center;
+    display: flex;
+    height: 17px;
+    margin-right: 6.63px;
+    min-width: 265px;
+  }
+  
+  .index .icon-star {
+    height: 14px;
+    margin-bottom: 1.43px;
+    width: 14px;
+  }
+  
+  .index .icon-star-1 {
+    height: 14px;
+    margin-bottom: 1.43px;
+    margin-left: 14px;
+    width: 14px;
+  }
+  
+  .index .address {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 22px;
+    min-height: 17px;
+    min-width: 116px;
+  }
+  
+  .index .explorer-nos-meilleu {
+    left: 281px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .index .flex-col-3 {
+    align-items: center;
+    background-color: var(--cultured-pearl);
+    border-radius: 20px 20px 0px 0px;
+    gap: 24px;
+    left: 682px;
+    min-height: 399px;
+    position: absolute;
+    top: 90px;
+    width: 284px;
+  }
+  
+  .index .flex-col-1 {
+    align-items: center;
+    gap: 12px;
+    min-height: 324px;
+    width: 284px;
+  }
+  
+  .index .resort-jumeirah-beach-hotel {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 2.0px;
+    min-height: 28px;
+    min-width: 256px;
+    text-decoration: underline;
+  }
+  
+  .index .flex-col-4 {
+    align-items: center;
+    background-color: var(--cultured-pearl);
+    border-radius: 20px 20px 0px 0px;
+    gap: 24px;
+    left: 381px;
+    min-height: 399px;
+    position: absolute;
+    top: 86px;
+    width: 284px;
+  }
+  
+  .index .rsidence-lausanne {
     letter-spacing: 0;
     line-height: normal;
     margin-left: 15px;
-    min-height: 33px;
+    min-height: 28px;
     text-decoration: underline;
   }
   
-  .desktop-6 .flex-row {
+  .index .flex-col-5 {
     align-items: center;
-    display: flex;
-    min-width: 268px;
-  }
-  
-  .desktop-6 .icon-star {
-    height: 23px;
-    width: 24px;
-  }
-  
-  .desktop-6 .icon-star-1 {
-    margin-left: 4px;
-  }
-  
-  .desktop-6 .address {
-    letter-spacing: 0;
-    line-height: normal;
-    margin-left: 38px;
-    margin-top: 2.39px;
-    min-height: 17px;
-    min-width: 95px;
-  }
-  
-  .desktop-6 .explorer-nos-meilleures-destinations {
-    left: 356px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-    font-size:35px ;
-  }
-  
-  .desktop-6 .overlap-group1 {
-    height: 399px;
-    left: 686px;
-    position: absolute;
-    top: 84px;
-    width: 285px;
-  }
-  
-  .desktop-6 .rectangle-3 {
     background-color: var(--cultured-pearl);
     border-radius: 20px 20px 0px 0px;
-    height: 399px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 284px;
-  }
-  
-  .desktop-6 .rectangle-4-1 {
-    height: 284px;
-    left: 0;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    width: 284px;
-  }
-  
-  .desktop-6 .moyen-orient {
-    left: 15px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-decoration: underline;
-    top: 296px;
-  }
-  
-  .desktop-6 .icon-star-2 {
-    left: 16px;
-    position: absolute;
-    top: 341px;
-  }
-  
-  .desktop-6 .icon-star-3 {
-    left: 72px;
-    position: absolute;
-    top: 341px;
-  }
-  
-  .desktop-6 .icon-star-4 {
-    left: 44px;
-    position: absolute;
-    top: 341px;
-  }
-  
-  .desktop-6 .icon-star-5 {
-    left: 100px;
-    position: absolute;
-    top: 341px;
-  }
-  
-  .desktop-6 .icon-star-6 {
-    left: 128px;
-    position: absolute;
-    top: 341px;
-  }
-  
-  .desktop-6 .address-1 {
-    left: 189px;
-    position: absolute;
-    top: 345px;
-  }
-  
-  .desktop-6 .flex-col-2 {
-    align-items: flex-end;
-    background-color: var(--cultured-pearl);
-    border-radius: 20px 20px 0px 0px;
-    gap: 12px;
-    left: 382px;
+    gap: 24px;
+    left: 985px;
     min-height: 399px;
     position: absolute;
-    top: 84px;
+    top: 91px;
     width: 284px;
   }
   
-  .desktop-6 .europe {
+  .index .htel-chitwa-chitwa-lodge {
     letter-spacing: 0;
     line-height: normal;
-    margin-left: 32px;
-    min-height: 33px;
-    min-width: 77px;
-    text-align: center;
+    margin-right: 9.0px;
+    min-height: 28px;
+    min-width: 245px;
     text-decoration: underline;
   }
   
-  .desktop-6 .flex-row-1 {
-    align-items: center;
-    display: flex;
-    margin-right: 1.0px;
-    min-width: 267px;
-  }
-  
-  .desktop-6 .address-2 {
-    margin-left: 38px;
-    margin-top: 2.39px;
-    min-height: 17px;
-    min-width: 94px;
-  }
-  
-  .desktop-6 .overlap-group3 {
-    height: 399px;
-    left: 990px;
-    position: absolute;
-    top: 84px;
-    width: 285px;
-  }
-  
-  .desktop-6 .afrique {
-    left: 15px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-decoration: underline;
-    top: 296px;
-  }
-  
-  .desktop-6 .overlap-group-container-1 {
+  .index .overlap-group-container-1 {
     align-items: flex-start;
     display: flex;
-    margin-left: 79.0px;
-    margin-top: 19px;
-    min-width: 1275px;
+    height: 478px;
+    margin-left: 82.0px;
+    margin-top: 10px;
+    min-width: 1272px;
   }
   
-  .desktop-6 .flex-col-3 {
-    align-items: flex-end;
+  .index .flex-col-6 {
+    align-items: center;
     background-color: var(--cultured-pearl);
     border-radius: 20px 20px 0px 0px;
-    gap: 12px;
+    gap: 24px;
     min-height: 399px;
     width: 284px;
   }
   
-  .desktop-6 .flex-col-4 {
-    align-items: flex-end;
+  .index .le-palladio-hotel {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 15px;
+    min-height: 28px;
+    text-decoration: underline;
+  }
+  
+  .index .flex-col-7 {
+    align-items: center;
     background-color: var(--cultured-pearl);
     border-radius: 20px 20px 0px 0px;
-    gap: 12px;
-    margin-left: 20px;
+    gap: 24px;
+    margin-left: 19px;
+    margin-top: 1px;
     min-height: 399px;
     width: 284px;
   }
   
-  .desktop-6 .asie {
+  .index .zhuhai-palm-spring-hotel {
     letter-spacing: 0;
     line-height: normal;
-    margin-left: 48px;
-    min-height: 33px;
-    min-width: 44px;
-    text-align: center;
+    margin-right: 21.0px;
+    min-height: 28px;
+    min-width: 233px;
     text-decoration: underline;
   }
   
-  .desktop-6 .overlap-group2 {
-    height: 399px;
-    margin-left: 20px;
-    position: relative;
-    width: 285px;
+  .index .flex-col-8 {
+    align-items: center;
+    background-color: var(--cultured-pearl);
+    border-radius: 20px 20px 0px 0px;
+    gap: 24px;
+    margin-left: 17px;
+    margin-top: 5px;
+    min-height: 399px;
+    width: 284px;
   }
   
-  .desktop-6 .ocanie {
-    left: 15px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
+  .index .surname-1 {
+    margin-left: 15px;
+    min-height: 28px;
     text-decoration: underline;
-    top: 296px;
   }
   
-  .desktop-6 .group-container-1 {
-    height: 476px;
+  .index .group-container-1 {
+    align-self: flex-end;
+    height: 472px;
     margin-left: 19px;
     position: relative;
-    width: 363px;
+    width: 365px;
   }
   
-  .desktop-6 .group-7 {
+  .index .group-7 {
     height: 157px;
-    left: 206px;
+    left: 208px;
     position: absolute;
-    top: 319px;
+    top: 315px;
     width: 157px;
   }
   
-  .desktop-6 .overlap-group4 {
-    height: 399px;
+  .index .flex-col-9 {
+    align-items: center;
+    background-color: var(--cultured-pearl);
+    border-radius: 20px 20px 0px 0px;
+    gap: 24px;
     left: 0;
+    min-height: 399px;
     position: absolute;
     top: 0;
-    width: 285px;
+    width: 284px;
   }
   
-  .desktop-6 .proche-orient {
-    left: 15px;
+  .index .dead-sea-hotel {
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
+    margin-left: 15px;
+    min-height: 28px;
     text-decoration: underline;
-    top: 296px;
   }
   
-  .desktop-6 .group-24 {
+  .index .group-24 {
     align-items: flex-start;
     display: flex;
     height: 419px;
@@ -521,7 +479,7 @@
     min-width: 1460px;
   }
   
-  .desktop-6 .overlap-group5 {
+  .index .overlap-group1 {
     align-items: center;
     background-color: var(--peach-cream);
     display: flex;
@@ -531,14 +489,14 @@
     width: 1440px;
   }
   
-  .desktop-6 .vector-3 {
+  .index .vector-4 {
     align-self: flex-end;
     cursor: pointer;
     height: 11px;
     width: 20px;
   }
   
-  .desktop-6 .flex-row-2 {
+  .index .flex-row-1 {
     align-items: flex-start;
     display: flex;
     height: 237px;
@@ -547,7 +505,7 @@
     min-width: 1019px;
   }
   
-  .desktop-6 .group-13 {
+  .index .group-13 {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
@@ -555,22 +513,20 @@
     width: 115px;
   }
   
-  .desktop-6 .naviguer {
+  .index .naviguer {
     letter-spacing: 0;
     line-height: normal;
     min-height: 23px;
     white-space: nowrap;
   }
   
-  .desktop-6 .surname {
-    letter-spacing: 0;
-    line-height: normal;
+  .index .surname-2 {
     margin-top: 36px;
     min-height: 17px;
     white-space: nowrap;
   }
   
-  .desktop-6 .carrires {
+  .index .carrires {
     letter-spacing: 0;
     line-height: normal;
     margin-top: 24px;
@@ -578,12 +534,13 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .place-2 {
+  .index .place-2 {
     margin-top: 24px;
     min-height: 17px;
+    white-space: nowrap;
   }
   
-  .desktop-6 .affilis {
+  .index .affilis {
     letter-spacing: 0;
     line-height: normal;
     margin-top: 24px;
@@ -591,7 +548,7 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .group-14 {
+  .index .group-14 {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
@@ -600,14 +557,14 @@
     width: 153px;
   }
   
-  .desktop-6 .ressources {
+  .index .ressources {
     letter-spacing: 0;
     line-height: normal;
     min-height: 23px;
     white-space: nowrap;
   }
   
-  .desktop-6 .blog {
+  .index .blog {
     letter-spacing: 0;
     line-height: normal;
     margin-top: 33px;
@@ -615,7 +572,7 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .tion {
+  .index .tion {
     letter-spacing: 0;
     line-height: normal;
     margin-left: 1px;
@@ -624,7 +581,7 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .communaut {
+  .index .communaut {
     letter-spacing: 0;
     line-height: normal;
     margin-top: 24px;
@@ -632,7 +589,7 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .tarification {
+  .index .tarification {
     letter-spacing: 0;
     line-height: normal;
     margin-top: 24px;
@@ -640,28 +597,28 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .flex-col-5 {
+  .index .flex-col-10 {
     align-items: flex-start;
     margin-left: 136px;
     min-height: 237px;
     width: 128px;
   }
   
-  .desktop-6 .entreprise {
+  .index .entreprise {
     letter-spacing: 0;
     line-height: normal;
     min-height: 23px;
     white-space: nowrap;
   }
   
-  .desktop-6 .prsentation-de-service {
+  .index .prsentation-de-service {
     letter-spacing: 0;
     line-height: normal;
     margin-top: 30px;
     min-height: 34px;
   }
   
-  .desktop-6 .a-propos-de-nous {
+  .index .a-propos-de-nous {
     letter-spacing: 0;
     line-height: normal;
     margin-top: 10px;
@@ -669,7 +626,7 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .clients-satisfaits {
+  .index .clients-satisfaits {
     letter-spacing: 0;
     line-height: normal;
     margin-top: 24px;
@@ -677,7 +634,7 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .portefeuille {
+  .index .portefeuille {
     letter-spacing: 0;
     line-height: normal;
     margin-top: 24px;
@@ -685,7 +642,7 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .centre-daide {
+  .index .centre-daide {
     letter-spacing: 0;
     line-height: normal;
     margin-top: 24px;
@@ -693,7 +650,7 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .flex-col-6 {
+  .index .flex-col-11 {
     align-items: flex-start;
     gap: 22px;
     margin-left: 134px;
@@ -701,7 +658,7 @@
     width: 221px;
   }
   
-  .desktop-6 .aider {
+  .index .aider {
     letter-spacing: 0;
     line-height: normal;
     margin-left: 1.0px;
@@ -709,7 +666,7 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .flex-row-3 {
+  .index .flex-row-2 {
     align-items: center;
     display: flex;
     gap: 8px;
@@ -717,46 +674,46 @@
     min-width: 221px;
   }
   
-  .desktop-6 .flex-col-7 {
+  .index .flex-col-12 {
     align-items: flex-start;
     margin-top: 0.24px;
     min-height: 103px;
     width: 18px;
   }
   
-  .desktop-6 .vector-4 {
+  .index .vector-5 {
     height: 11px;
     margin-left: 3.0px;
     width: 15px;
   }
   
-  .desktop-6 .vector-5 {
+  .index .vector-6 {
     height: 11px;
     margin-left: 3.0px;
     margin-top: 37px;
     width: 15px;
   }
   
-  .desktop-6 .location-dot-solid-1-1 {
+  .index .location-dot-solid-1-1 {
     height: 15px;
     margin-top: 29px;
     width: 15px;
   }
   
-  .desktop-6 .flex-col-8 {
+  .index .flex-col-13 {
     align-items: flex-start;
     min-height: 107px;
     width: 195px;
   }
   
-  .desktop-6 .phone {
+  .index .phone {
     letter-spacing: 0;
     line-height: normal;
     min-height: 17px;
     white-space: nowrap;
   }
   
-  .desktop-6 .mmbengue006gmailcom {
+  .index .mmbengue006gmailcom {
     letter-spacing: 0;
     line-height: normal;
     margin-top: 30px;
@@ -764,7 +721,7 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .pikine-guinaw-rails {
+  .index .pikine-guinaw-rails {
     letter-spacing: 0;
     line-height: normal;
     margin-top: 26px;
@@ -772,7 +729,7 @@
     white-space: nowrap;
   }
   
-  .desktop-6 .group-15 {
+  .index .group-15 {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
@@ -783,37 +740,31 @@
     width: 450px;
   }
   
-  .desktop-6 .vector-6 {
+  .index .vector-7 {
     height: 1px;
     margin-left: 12px;
     width: 9px;
   }
   
-  .desktop-6 .copyright-startravel {
+  .index .copyright-startravel {
     letter-spacing: 0;
     line-height: normal;
     min-height: 1px;
     white-space: nowrap;
   }
   
-  .desktop-6 .address-3 {
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop-6 .flex-col-9 {
+  .index .flex-col-14 {
     display: flex;
     flex-direction: column;
   }
   
-  .desktop-6 .icon-star-7 {
-    height: 23px;
-    width: 24px;
-  }
-  
-  .desktop-6 .place-3 {
+  .index .place-3 {
     letter-spacing: 0;
     line-height: normal;
-    white-space: nowrap;
+  }
+  
+  .index .surname-3 {
+    letter-spacing: 0;
+    line-height: normal;
   }
   

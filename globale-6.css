@@ -1,0 +1,18 @@
+/* screen - desktop-6 */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css%22");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,500,600%22");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/6453a7b963076cae904c716d.6453a7ba491cb89a2159f59d.6453a7bbb01039916046f1b4.hcp.png%22");
+
+@font-face {
+  font-family: "Arial-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/Arial-Bold%22");
+}
+@font-face {
+  font-family: "Sedan-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/Sedan-Regular%22");
+}

@@ -1,0 +1,682 @@
+/* screen - index */
+
+.index {
+    align-items: flex-start;
+    background-color: var(--orange-white);
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 2356px;
+    overflow: hidden;
+    width: 1440px;
+  }
+  
+  .index .overlap-group5 {
+    height: 590px;
+    position: relative;
+    width: 1439px;
+  }
+  
+  .index .image-1 {
+    height: 479px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1439px;
+  }
+  
+  .index .nous-vous-offrons-la {
+    left: 33px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 392px;
+    width: 553px;
+  }
+  
+  .index .title {
+    left: 33px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 106px;
+    width: 757px;
+  }
+  
+  .index .overlap-group {
+    align-items: center;
+    background-color: var(--cultured-pearl);
+    border-radius: 20px;
+    display: flex;
+    height: 116px;
+    justify-content: flex-end;
+    left: 375px;
+    min-width: 690px;
+    padding: 0 14px;
+    position: absolute;
+    top: 474px;
+  }
+  
+  .index .destination {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 14.0px;
+    min-height: 24px;
+    min-width: 113px;
+    white-space: nowrap;
+  }
+  
+  .index .place {
+    margin-bottom: 14.0px;
+    margin-left: 119px;
+    min-height: 24px;
+    min-width: 46px;
+  }
+  
+  .index .voyageurs {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 14.0px;
+    margin-left: 119px;
+    min-height: 24px;
+    min-width: 103px;
+    white-space: nowrap;
+  }
+  
+  .index .rectangle-2 {
+    background-color: var(--keppel);
+    border-radius: 10px;
+    height: 88px;
+    margin-left: 64px;
+    width: 90px;
+  }
+  
+  .index .vector {
+    height: 8px;
+    left: 520px;
+    position: absolute;
+    top: 525px;
+    width: 16px;
+  }
+  
+  .index .vector-1 {
+    height: 8px;
+    left: 684px;
+    position: absolute;
+    top: 524px;
+    width: 16px;
+  }
+  
+  .index .icon-search {
+    height: 31px;
+    left: 990px;
+    position: absolute;
+    top: 385px;
+    width: 41px;
+  }
+  
+  .index .navbar {
+    align-items: flex-start;
+    display: flex;
+    height: 68px;
+    left: 51px;
+    min-width: 1325px;
+    position: absolute;
+    top: 24px;
+  }
+  
+  .index .group-18 {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    min-height: 65px;
+    width: 92px;
+  }
+  
+  .index .vector-2 {
+    height: 28px;
+    width: 77px;
+  }
+  
+  .index .mm_fly {
+    align-self: flex-end;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 2px;
+    min-height: 18px;
+    white-space: nowrap;
+    width: 80px;
+  }
+  
+  .index .navbar-link-accueil {
+    margin-left: 771px;
+    min-width: 52px;
+  }
+  
+  .index .navbar-link-a-propos {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 67px;
+    min-height: 17px;
+    min-width: 62px;
+  }
+  
+  .index .navbar-link-destinations {
+    margin-left: 67px;
+    min-width: 87px;
+  }
+  
+  .index .navbar-link-place {
+    margin-left: 63px;
+  }
+  
+  .index .icon-search-1 {
+    height: 41px;
+    left: 991px;
+    position: absolute;
+    top: 516px;
+    width: 41px;
+  }
+  
+  .index .achat-de-billet {
+    align-self: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 5.0px;
+    margin-top: 182px;
+    min-height: 24px;
+    min-width: 141px;
+    white-space: nowrap;
+  }
+  
+  .index .flex-row {
+    gap: 284px;
+    height: 183px;
+    margin-left: 65px;
+    margin-top: 41px;
+    min-width: 869px;
+  }
+  
+  .index .group {
+    align-self: flex-end;
+    height: 157px;
+    width: 157px;
+  }
+  
+  .index .veuillez-vous-identifier {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 55px;
+    width: 428px;
+  }
+  
+  .index .group-container {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    gap: 55px;
+    height: 680px;
+    margin-right: 64px;
+    min-width: 1087px;
+  }
+  
+  .index .overlap-group6 {
+    height: 650px;
+    position: relative;
+    width: 875px;
+  }
+  
+  .index .mot-de-passe-oubli {
+    left: 642px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 304px;
+    width: 220px;
+  }
+  
+  .index .icon-eye {
+    height: 29px;
+    left: 782px;
+    position: absolute;
+    top: 238px;
+    width: 50px;
+  }
+  
+  .index .group-50 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    min-height: 650px;
+    position: absolute;
+    top: 0;
+    width: 875px;
+  }
+  
+  .index .email-ou-numro {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 32px;
+    width: 375px;
+  }
+  
+  .index .overlap-group3 {
+    align-items: flex-end;
+    background-color: var(--alto);
+    border-radius: 15px;
+    display: flex;
+    height: 86px;
+    margin-top: 17px;
+    min-width: 861px;
+    padding: 25px 59px;
+  }
+  
+  .index .exemplecom {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 32px;
+    opacity: 0.4;
+    width: 350px;
+  }
+  
+  .index .mot-de-passe {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 8px;
+    margin-top: 25px;
+    min-height: 33px;
+    width: 223px;
+  }
+  
+  .index .overlap-group4 {
+    align-items: flex-end;
+    background-color: var(--alto);
+    border-radius: 15px;
+    display: flex;
+    height: 87px;
+    margin-top: 17px;
+    min-width: 861px;
+    padding: 20px 50px;
+  }
+  
+  .index .text-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 32px;
+    opacity: 0.4;
+    width: 331px;
+  }
+  
+  .index .overlap-group2 {
+    align-items: flex-start;
+    background-color: var(--keppel);
+    border-radius: 15px;
+    display: flex;
+    height: 86px;
+    margin-top: 74px;
+    min-width: 861px;
+    padding: 30px 363px;
+  }
+  
+  .index .se-connecter {
+    color: #fffefe;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s2);
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 25px;
+    width: 134px;
+  }
+  
+  .index .flex-row-1 {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    height: 22px;
+    margin-right: 8.0px;
+    margin-top: 60px;
+    min-width: 855px;
+  }
+  
+  .index .line-5 {
+    height: 3px;
+    margin-top: 3.05px;
+    object-fit: cover;
+    width: 396px;
+  }
+  
+  .index .ou {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 13px;
+    min-height: 22px;
+    white-space: nowrap;
+    width: 31px;
+  }
+  
+  .index .line-6 {
+    height: 1px;
+    margin-left: 5px;
+    margin-top: 5.0px;
+    object-fit: cover;
+    width: 410px;
+  }
+  
+  .index .crer-un-compte {
+    align-self: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 13.0px;
+    margin-top: 66px;
+    min-height: 45px;
+    width: 224px;
+  }
+  
+  .index .group-24 {
+    align-items: flex-start;
+    display: flex;
+    height: 419px;
+    margin-left: -11px;
+    margin-top: 237px;
+    min-width: 1460px;
+  }
+  
+  .index .overlap-group1 {
+    align-items: center;
+    background-color: var(--peach-cream);
+    display: flex;
+    flex-direction: column;
+    min-height: 419px;
+    padding: 21px 43px;
+    width: 1440px;
+  }
+  
+  .index .vector-3 {
+    align-self: flex-end;
+    cursor: pointer;
+    height: 11px;
+    width: 20px;
+  }
+  
+  .index .flex-row-2 {
+    align-items: flex-start;
+    display: flex;
+    height: 237px;
+    margin-left: 45.0px;
+    margin-top: 19px;
+    min-width: 1019px;
+  }
+  
+  .index .group-13 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 199px;
+    width: 115px;
+  }
+  
+  .index .naviguer {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 23px;
+    white-space: nowrap;
+  }
+  
+  .index .surname {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 36px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .carrires {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .place-1 {
+    margin-top: 24px;
+    min-height: 17px;
+  }
+  
+  .index .affilis {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .group-14 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 132px;
+    min-height: 237px;
+    width: 153px;
+  }
+  
+  .index .ressources {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 23px;
+    white-space: nowrap;
+  }
+  
+  .index .blog {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 33px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .tion {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 1px;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .communaut {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .tarification {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .flex-col {
+    flex-direction: column;
+    margin-left: 136px;
+    min-height: 237px;
+    width: 128px;
+  }
+  
+  .index .entreprise {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 23px;
+    white-space: nowrap;
+  }
+  
+  .index .prsentation-de-service {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 30px;
+    min-height: 34px;
+  }
+  
+  .index .a-propos-de-nous {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 10px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .clients-satisfaits {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .portefeuille {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .centre-daide {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 24px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .flex-col-1 {
+    gap: 22px;
+    margin-left: 134px;
+    min-height: 152px;
+    width: 221px;
+  }
+  
+  .index .aider {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 1.0px;
+    min-height: 23px;
+    white-space: nowrap;
+  }
+  
+  .index .flex-row-3 {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    height: 107px;
+    min-width: 221px;
+  }
+  
+  .index .flex-col-2 {
+    margin-top: 0.24px;
+    min-height: 103px;
+    width: 18px;
+  }
+  
+  .index .vector-4 {
+    height: 11px;
+    margin-left: 3.0px;
+    width: 15px;
+  }
+  
+  .index .vector-5 {
+    height: 11px;
+    margin-left: 3.0px;
+    margin-top: 37px;
+    width: 15px;
+  }
+  
+  .index .location-dot-solid-1-1 {
+    height: 15px;
+    margin-top: 29px;
+    width: 15px;
+  }
+  
+  .index .flex-col-3 {
+    min-height: 107px;
+    width: 195px;
+  }
+  
+  .index .phone {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .mmbengue006gmailcom {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 30px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .pikine-guinaw-rails {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 26px;
+    min-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .index .group-15 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-left: 58.0px;
+    margin-top: 78px;
+    min-height: 21px;
+    width: 450px;
+  }
+  
+  .index .vector-6 {
+    height: 1px;
+    margin-left: 12px;
+    width: 9px;
+  }
+  
+  .index .copyright-startravel {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 1px;
+    white-space: nowrap;
+  }
+  
+  .index .flex {
+    align-items: flex-start;
+    display: flex;
+  }
+  
+  .index .flex-col-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .index .navbar-link {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 17px;
+  }
+  
+  .index .place-2 {
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
